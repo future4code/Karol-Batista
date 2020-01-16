@@ -1,0 +1,12 @@
+.head{
+    background-color:#111111;
+    text-align: center;
+    padding: 20px;
+    color:yellow;
+    }
+.footer{
+    background-color:grey;
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+       }
