@@ -142,3 +142,9 @@ td button:hover {
 #back-button:hover {
     background-color: #635a3d
 }
+table {
+    width: 50%;
+    margin: auto;
+    border-spacing: 0;
+    text-align: center;
+}
