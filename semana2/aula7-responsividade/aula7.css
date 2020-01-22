@@ -1,0 +1,144 @@
+.item{
+    border: 5px ;
+
+}
+.container{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+}
+
+.item{
+    border: 1px solid blue;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+.item{
+    border: 1px solid yellow;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.item{
+    border: 1px solid green;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+
+}
+.item{
+    border: 1px solid blue;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.item{
+    border: 1px solid yellow;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: yellow
+}
+.item{
+    border: 1px solid green;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color:green;
+}
+.item{
+    border: 1px solid chocolate;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color:chocolate;
+}
+.item{
+    border: 1px solid chocolate;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color:chocolate}
+.item{
+    border: 1px solid white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.item{
+    border: 1px solid black;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: white
+}
+
+.item{
+    border: 1px solid black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+
+
+
+
+@media screen and (max-width: 400px){
+    .container{
+        width: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .Um{
+        
+        align-items: flex-start;
+        
+
+ 
+    }
+    .Dois{
+        align-items: flex-start;
+
+    }
+    .Três{
+        align-items: flex-start;
+
+    }
+    .Quatro{
+        align-items: flex-start;
+
+    }
+    .Cinco{
+        align-items: flex-start;
+    }
+    .Seis{
+        align-items: flex-start;
+    }
+    .Sete{
+        align-items: flex-start;
+    }
+    .Oito{
+        align-items: flex-start;
+    }
+    .Nove{
+        align-items: flex-start;
+    }
+    .Dez{
+        align-items: flex-start;
+    }
+    .Onze{
+        align-items: flex-start;
+    }
+    }
