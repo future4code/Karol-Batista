@@ -1,0 +1,12 @@
+grid-column-start:3;
+grid-column-start:5;
+grid-column-end:4;
+grid-column-end:2;
+grid-column-end:-2;
+grid-column-end:-2;
+grid-column-end: span 2;
+grid-column-end: span 5;
+grid-column-start: 3 span ;
+grid-column: 4 /44 
+grid-column: span 3 / 5 
+grid-row-start: 3;
