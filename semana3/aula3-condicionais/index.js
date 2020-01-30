@@ -52,14 +52,23 @@ else if(n1===n2){
 }else{
   console.log(n2, n1)
 }
-let n3 = Number(prompt("Digite outro numero"))
-console.log(n3)
-
+//
+const primeiroNumero = Number(prompt("Digite um numero"))
+const segundoNumero = Number(prompt("Digite outro numero"))
+const terceiroNumero = Number(prompt("Digite mais um numero"))
+if( primeiroNumero > segundoNumero && segundoNumero > terceiroNumero){
+  console.log(primeiroNumero)
+   console.log(segundoNumero)
+}else if( primeiroNumero === segundoNumero || segundoNumero === terceiroNumero){
+  console.log("Digite números diferentes")
+}else{
+  console.log(terceiroNumero)
+}
 //
 
 //5
 /*
-a.
+a. https://drive.google.com/file/d/1q1MdsF1KhBCU_-OheZCsB0DQiDf-AVDa/view?usp=sharing
 
 */
 //b
@@ -83,3 +92,4 @@ break;
 case "Sem ossos":
 console.log("Invertebrados")
 break;
+}
