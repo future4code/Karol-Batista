@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    justify-content: space-evenly;
+}
