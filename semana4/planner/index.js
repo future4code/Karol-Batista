@@ -13,6 +13,7 @@ function criarTarefa(){
     input.value =""
 
 
+<<<<<<< HEAD
     if(semana ="segunda"){
         const primeiroDia = document.getElementById("segunda")
         listaDeMetas.innerHTML += "<li>" + novaTarefa + "</li>"
@@ -42,4 +43,38 @@ function criarTarefa(){
     
     }
     input.value = " "
+=======
+    if(novaTarefa ="segunda"){
+        const primeiroDia = document.getElementById("segunda")
+        listaDeMetas.innerHTML += "<li>" + novaTarefa + "</li>"
+    }else if( novaTarefa ="terca"){
+        listaDeMetas.innerHTML += "<li>" + novaTarefa +"</li>"
+        /*const listaDeCompras = document.getElementById("segunda")*/
+    }
+    if(novaTarefa =" terca"){
+        listaDeMetas.innerHTML += "<li>" + novaTarefa+ "</li>"
+    }else if( novaTarefa="quarta"){
+        listaDeMetas.innerHTML +="<li>" + novaTarefa+"</li>"
+    }
+    if(novaTarefa ="quinta"){
+        
+        listaDeMetas.innerHTML += "<li>" + novaTarefa + "</li>"
+    }else if( novaTarefa ="sexta"){
+    
+        listaDeMetas.innerHTML += "<li>" + novaTarefa + "</li>"
+    }
+    if(novaTarefa ="sabado"){
+        
+        listaDeMetas.innerHTML += "<li>" + novaTarefa + "</li>"
+    }else if( novaTarefa ="domingo"){
+        listaDeMetas.innerHTML +="<li>" + novaTarefa + "</li>"
+    
+    
+    }
+
+
+
+
+    input.value =""
+>>>>>>> c37d156c857b8893597a466d08fc84331fb26398
 }
