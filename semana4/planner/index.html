@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js" defer ></script>
+</head>
+<body>
+    <header>
+        <label for="nova-tarefa">Nova Tarefa</label>
+        <input type="text" name="nova-tarefa" id="newtask" onkeyup="verificarTarefa(event)">
+    
+        <select name="semana" id="semana">
+            <option value="segunda" >Segunda-Feira</option>
+            <option value="terca">Terça-Feira</option>
+            <option value="quarta">Quarta-Feira</option>
+            <option value="quinta">Quinta-Feira</option>
+            <option value="sexta">Sexta-Feira</option>
+            <option value="sabado">Sábado</option>
+            <option value="domingo">Domingo</option>
+         </select>
+    <button onclick="criarTarefa()">Criar Tarefa</button>
+</header>
+    <main class="container">
+        <div >
+            <h2>Segunda-Feira</h2>
+            <ul id="segunda"></ul>
+        </div>
+        <div>
+            <h2>Terça-Feira</h2>
+            <ul id="terca"></ul>
+        </div>
+        <div>
+            <h2>Quarta-Feira</h2>
+            <ul id="quarta"></ul>
+        </div>
+
+        <div >
+            <h2>Quinta-Feira</h2>
+            <ul id="quinta"></ul>
+        </div>
+        <div >
+            <h2>Sexta-Feira</h2>
+            <ul id="sexta"></ul>
+        </div>
+        <div >
+            <h2>Sábado</h2>
+            <ul id="sabado"></ul>
+        </div>
+        <div >
+            <h2>Domingo</h2>
+            <ul id="domingo"></ul>
+        </div>
+
+        
+    </main>
+        
+
+</body>
+</html>
