@@ -6,23 +6,27 @@ class Post{
     }
 }
 
-const novoPost = new post()
+/*const novoPost = new post()
 post.nome =""
 post.autor =""
-post.biografia =""
+post.biografia =""*/
 
 /*let novoCachorro = new Cachorro("Mel, 7,"viraLata")
 novoCachorro.latir()*/
 
 
-function blog(nome, autor, biografia){
-    let nome = getElementById("nome").value
-    let autor = getElementById("autor").value
-    let biografia =getElementById("biografia").value    
-    const input = document.querySelector("input").value
-    const novoBlog = input.value
-
-
+function criarBlog(){
+    let novoNome = document.getElementById("nome").value
+    let novoAutor = document.getElementById("autor").value
+    let novaBiografia =document.getElementById("biografia").value    
+    
+    const postagem = new Post(novoNome, novoAutor, novaBiografia)
+    console.log(postagem)
+    
+    
+    
+    
+    
     /*if(novaTarefa ="segunda"){
         const primeiroDia = document.getElementById("segunda")
         listaDeMetas.innerHTML += "<li>" + novaTarefa + "</li>"
@@ -32,5 +36,5 @@ function blog(nome, autor, biografia){
     
 
 
-    input.value= " "
+    // input.value= " "
 }
