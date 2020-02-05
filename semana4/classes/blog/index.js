@@ -3,18 +3,7 @@ class Post{
         this.nome = nome 
         this.autor = autor
         this.biografia= biografia
-
-        this.escrever = () =>{
-            console.log(" Oi")
-        }
-
-    /*this.fazerAniversario = (idade) =>{
-        return idade*7*/
     }
-
-
-
-
 }
 
 const novoPost = new post()
