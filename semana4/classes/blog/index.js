@@ -6,13 +6,6 @@ class Post{
     }
 }
 
-/*const novoPost = new post()
-post.nome =""
-post.autor =""
-post.biografia =""*/
-
-
-
 let array = [] // monta a array 
 
 function criarBlog(){
