@@ -21,4 +21,14 @@ function criarBlog(){
     document.getElementById("nome").value = ""
     document.getElementById("autor").value = ""
     document.getElementById("biografia").value = ""
+
+    //chamando a função para o botao
+    inserirPost(novoNome, novoAutor, novaBiografia)
+}
+
+function inserirPost(novoNome, novoAutor, novaBiografia){
+    document.getElementById("conteudo").innerHTML += 
+    "<article><h3>" + novoNome+"</h3>" +
+    "<p>" + novoAutor+"</p>" +
+    "<h3>" + novaBiografia+"</h3></article>"
 }
