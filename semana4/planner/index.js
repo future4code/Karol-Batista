@@ -10,7 +10,6 @@ function criarTarefa(){
     const week = document.getElementById("semana").value
    
     
-    input.value =""
 
 
     if(novaTarefa ="segunda"){
@@ -45,4 +44,5 @@ function criarTarefa(){
 
 
     input.value =""
+
 }
