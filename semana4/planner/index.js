@@ -8,6 +8,9 @@ function criarTarefa(){
     const listaDeMetas = document.getSelectorName("ul")*/
     
     const week = document.getElementById("semana").value
+   
+    
+
 
     if(novaTarefa ="segunda"){
         const primeiroDia = document.getElementById("segunda")
