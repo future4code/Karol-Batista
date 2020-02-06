@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+main div {
+    
+    display: grid;
+    justify-content: space-evenly;
+    margin: 15px;
+    margin-top: 20px;
+}
